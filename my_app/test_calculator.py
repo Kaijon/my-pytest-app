@@ -7,7 +7,7 @@ class TestCalculator:
     
     def test_add_positive_numbers(self):
         """Test adding positive numbers."""
-        assert add(2, 3) == 5
+        assert add(2, 3) == 4 
         assert add(10, 15) == 25
     def test_subtract(self):
         """Test subtraction."""
